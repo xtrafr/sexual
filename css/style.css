@@ -158,16 +158,11 @@ body {
 .username-text {
     font-size: 25px;
     font-weight: 700;
-    background: linear-gradient(135deg, #928fcf 0%, #ff69b4 100%);
+    background: #928fcf;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-    transition: filter 0.3s ease;
-}
-
-.username-text:hover {
-    filter: drop-shadow(0 4px 8px rgba(146, 143, 207, 0.4));
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .description {
@@ -181,11 +176,11 @@ body {
 .description-text {
     font-size: 13px;
     font-weight: 600;
-    background: linear-gradient(135deg, #7a77b8 0%, #ff8fc7 100%);
+    background: #928fcf;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .social-buttons {
